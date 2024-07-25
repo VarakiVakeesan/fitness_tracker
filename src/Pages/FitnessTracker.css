@@ -1,0 +1,83 @@
+.fitness-tracker {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .input-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-form input,
+  .input-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .workout-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .workout-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .workout-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .workout-actions button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .workout-actions button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .Modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .Modal h2 {
+    margin-top: 0;
+  }
+  
+  .Modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .Modal form input,
+  .Modal form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .Modal form button {
+    cursor: pointer;
+  }
+  
+  .Modal form button:hover {
+    background-color: #f0f0f0;
+  }
+  
